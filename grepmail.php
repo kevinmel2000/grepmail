@@ -26,6 +26,13 @@ function grepmail($pattern, $input, $flags = 0)
 }
 
 
+//header
+echo "+-------------------------------------+".PHP_EOL;
+echo "| Tool  : Grep Mail Tool              |".PHP_EOL;
+echo "| Author: X'1n73ct                    |".PHP_EOL;
+echo "| Runing: php grepmail.php file.txt   |".PHP_EOL;
+echo "+-------------------------------------+".PHP_EOL; 
+
 if(!empty($argv[1]) && file_exists($argv[1])){
 
 echo "[i] Membaca data di {$argv[1]}" . PHP_EOL;
