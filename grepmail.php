@@ -76,10 +76,10 @@ if (!is_dir("hasil")) {
 
     echo "[i] Create File in Folder hasil" . PHP_EOL;
     echo $file_hotmail . PHP_EOL;
-    echo $file_hotmail . PHP_EOL;
-    echo $file_hotmail . PHP_EOL;
-    echo $file_hotmail . PHP_EOL;
-    echo $file_hotmail . PHP_EOL;
+    echo $file_aol . PHP_EOL;
+    echo $file_yahoo . PHP_EOL;
+    echo $file_gmail . PHP_EOL;
+    echo $file_other . PHP_EOL;
 
     write("hasil/" . $file_hotmail, implode(PHP_EOL, $hotmail_grab));
     write("hasil/" . $file_aol, implode(PHP_EOL, $aol_grab));
