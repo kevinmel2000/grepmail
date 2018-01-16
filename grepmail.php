@@ -68,11 +68,24 @@ if (!is_dir("hasil")) {
     mkdir('hasil');
 }
 
-write("hasil/hotmail_" . count($hotmail_grab) . ".txt", implode(PHP_EOL, $hotmail_grab));
-write("hasil/aol_" . count($aol_grab) . ".txt", implode(PHP_EOL, $aol_grab));
-write("hasil/yahoo_" . count($yahoo_grab) . ".txt", implode(PHP_EOL, $yahoo_grab));
-write("hasil/gmail_" . count($gmail_grab) . ".txt", implode(PHP_EOL, $gmail_grab));
-write("hasil/other_" . count($other_grab) . ".txt", implode(PHP_EOL, $other_grab));
+    $file_hotmail = "hotmail_" . count($hotmail_grab) . ".txt";
+    $file_aol     = "aol_" . count($aol_grab) . ".txt";
+    $file_yahoo   = "yahoo_" . count($yahoo_grab) . ".txt";
+    $file_gmail   = "gmail_" . count($gmail_grab) . ".txt";
+    $file_other   = "other_" . count($other_grab) . ".txt";
+
+    echo "[i] Create File in Folder hasil" . PHP_EOL;
+    echo $file_hotmail . PHP_EOL;
+    echo $file_hotmail . PHP_EOL;
+    echo $file_hotmail . PHP_EOL;
+    echo $file_hotmail . PHP_EOL;
+    echo $file_hotmail . PHP_EOL;
+
+    write("hasil/" . $file_hotmail, implode(PHP_EOL, $hotmail_grab));
+    write("hasil/" . $file_aol, implode(PHP_EOL, $aol_grab));
+    write("hasil/" . $file_yahoo, implode(PHP_EOL, $yahoo_grab));
+    write("hasil/" . $file_gmail, implode(PHP_EOL, $gmail_grab));
+    write("hasil/" . $file_other, implode(PHP_EOL, $other_grab));
 
 }else{
 
