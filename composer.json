@@ -4,5 +4,5 @@
     "keywords": ["email", "graph"],
     "require": {
         "php": ">=5.4"
-    },
+    }
 }
