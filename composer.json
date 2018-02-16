@@ -1,11 +1,9 @@
 {
-    "repositories": [
-        {
-            "url": "https://github.com/x1n73ct/grepmail.git",
-            "type": "git"
-        }
-    ],
+    "name": "x1n73ct/grepmail",
+    "description": "Email graph",
+    "keywords": ["email", "graph"],
     "require": {
-        "x1n73ct/grepmail": "1.0"
-    }
+        "php": ">=5.4",
+        "ext-pdo": "*"
+    },
 }
