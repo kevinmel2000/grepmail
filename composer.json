@@ -1,17 +1,11 @@
 {
-    "repositories": [{
-        "type": "package",
-        "package": {
-            "name": "grepmail", //give package name to anything, must be unique
-            "version": "1.0",
-            "source": {
-                "url": "https://github.com/x1n73ct/grepmail.git", //git url
-                "type": "git",
-                "reference": "master" //git branch-name
-            }
+    "repositories": [
+        {
+            "url": "https://github.com/x1n73ct/grepmail.git",
+            "type": "git"
         }
-    }],
+    ],
     "require": {
-        "grepmail": "1.0"
+        "x1n73ct/grepmail": "1.0"
     }
 }
