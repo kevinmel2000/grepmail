@@ -4,7 +4,7 @@
  * Tool: Grep Mail Tool
  * Date: 25 Desember 2017
  * Author: X'1n73ct
- * Runing: php grepmail.php file.txt
+ * Runing: php grepmail.php file.txt 
  */
 
 ini_set("memory_limit", -1);
