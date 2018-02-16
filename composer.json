@@ -3,7 +3,6 @@
     "description": "Email graph",
     "keywords": ["email", "graph"],
     "require": {
-        "php": ">=5.4",
-        "ext-pdo": "*"
+        "php": ">=5.4"
     },
 }
